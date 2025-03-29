@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--white);
+    font-size: 36px;
+}
+
+.formInputContainer {
+    padding: 8px 0;
+}
+
+.formInputContainer label, .formInputContainer span {
+    font-weight: bold;
+    color: var(--off-white);
+}
+
+.formInputContainer input {
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 6px;
+    margin: 0 8px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    background-color: var(--purple-secondary);
+    color: var(--white);
+    transition: .3s;
+    border: 1px solid var(--purple-border);
+
+} .formInputContainer input::placeholder {
+    font-size: 14px;
+    color: rgba(250, 250, 250, .8);
+    font-style: italic;
+} .formInputContainer input:hover, .formInputContainer input:focus {
+    border-radius: 6px;
+    background-color: var(--purple-third);
+}
+
+form button {
+    height: 60px;
+    width: 100%;
+    border: 1px solid var(--purple-secondary);
+    border-radius: 50px;
+    color: var(--white-opacity);
+    background-color: var(--purple-primary);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    margin: 20px 0 40px;
+} form button:hover {
+    letter-spacing: 1px;
+    border-radius: 8px;
+    background-color: var(--purple-third);
+    color: var(--white);
+    text-shadow: var(--black-lighten) 1px 2px 3px;
+}

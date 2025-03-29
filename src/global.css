@@ -1,0 +1,40 @@
+:root {
+    --bg-body: #242424;
+    --purple-primary: #646CFF;
+    --purple-secondary: #535BF2;
+    --purple-border: #646CFF;
+    --purple-third: #747BFF;
+    --black: #000000;
+    --black-lighten: #1A1A1A;
+    --white: #FFFFFF;
+    --off-white: #F9F9F9;
+    --white-opacity: rgba(250, 250, 250, .7);
+    
+    --font-main: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--off-white);
+    font-family: var(--font-main);
+    outline: none;
+}
+
+body {
+    background-color: var(--bg-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    padding: 80px 140px;
+    max-width: 960px;
+    width: 100%;
+    background-color: var(--black-lighten);
+    border-radius: 40px;
+    border: 2px solid var(--white);
+}
