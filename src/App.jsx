@@ -50,10 +50,6 @@ function App() {
         </div>
         <button type="submit">CALCULATE</button>
       </form>
-
-
-
-
       <ShowResult height={height} weight={weight} />
     </div>
   )
